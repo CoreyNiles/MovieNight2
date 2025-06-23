@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "knip-check": "knip --production --fix --allow-remove-files --no-oxc"
   },
   "dependencies": {
     "firebase": "^10.7.1",
