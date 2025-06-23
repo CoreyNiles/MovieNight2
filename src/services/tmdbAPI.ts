@@ -415,4 +415,4 @@ class TMDBAPI {
 }
 
 export const tmdbAPI = new TMDBAPI();
-export type { TMDBMovie, TMDBSearchResponse, FilterOptions };
+export type { TMDBMovie,  FilterOptions };

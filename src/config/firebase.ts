@@ -17,7 +17,7 @@ const app = initializeApp(firebaseConfig);
 
 export const auth = getAuth(app);
 export const db = getFirestore(app);
-export const functions = getFunctions(app);
+const functions = getFunctions(app);
 
 // Only connect to emulators in development
 if (import.meta.env.DEV) {
@@ -27,4 +27,3 @@ if (import.meta.env.DEV) {
   // connectFunctionsEmulator(functions, 'localhost', 5001);
 }
 
-export default app;
